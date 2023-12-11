@@ -22,7 +22,7 @@ A brief description of what this project does and who it's for
 3. Run the program (with examples)
    ```sh
    # run with prod profile (specified):
-   java -jar "-Dspring.profiles.active=prod" .\build\libs\dom-1.0.0-SNAPSHOT.jar start 2
+   java -jar "-Dspring.profiles.active=prod" .\build\libs\dom-solver-1.0.0-SNAPSHOT.jar start 2
    # run with default profile:
    java -jar .\build\libs\dom-solver-1.0.0-SNAPSHOT.jar start 10   
    ```
@@ -40,8 +40,12 @@ A brief description of what this project does and who it's for
 ###### in case of default profile, logs will be in ./statistics/dev folder
 ##### What is displayed in statistics?: 
 * The amount of gold over time.
+# ![1RK12qJp_gold_chart](https://github.com/joosepkoort/dom-solver/assets/7001273/218ebc5b-ab48-48fa-aeee-1cf45bec61f3)
 * The score over time.
+# ![1RK12qJp_score_chart](https://github.com/joosepkoort/dom-solver/assets/7001273/fcd3e670-de92-46ff-8b45-eba32d65bc16)
 * The difficulty of the quest over time.
+# ![1RK12qJp_difficulty_chart](https://github.com/joosepkoort/dom-solver/assets/7001273/0c65af44-b6e0-4896-80c5-6cecc4f85c6b)
+
 
 ### Contributing
 
