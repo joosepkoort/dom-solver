@@ -50,7 +50,7 @@ A brief description of what this project does and who it's for
 
 ## Trends noted:
 ###### * So in short, the trend for the gold is increasing, until the most difficult quests appear. Then the trend for gold is decreasing.
-###### * The trend for the score is increasing, until it hits a wall at around 2500-3500.
+###### * The trend for the score is increasing, until it hits a wall at around 2500-3000.
 ###### * The difficulty chart shows a trend of increasing difficulty (going from 2 to -2, where 2 is the easiest and -2 is the most difficult).
 ###### * Only 10% or less played games hit a score less than 1000.
 ### Contributing
