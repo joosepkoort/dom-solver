@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="org.hibernate" level="ERROR"/>
+    <logger name="liquibase.util" level="ERROR"/>
+    <logger name="liquibase.changelog" level="ERROR"/>
+    <logger name="liquibase.ui" level="ERROR"/>
+    <logger name="liquibase.command" level="ERROR"/>
+    <logger name="liquibase.lockservice" level="ERROR"/>
+    <logger name="liquibase.database" level="ERROR"/>
+    <logger name="com.zaxxer.hikari.pool.HikariPool" level="ERROR"/>
+    <logger name="com.zaxxer.hikari.pool.PoolBase" level="ERROR"/>
+    <logger name="com.zaxxer.hikari.pool.HikariDataSource" level="ERROR"/>
+    <logger name="com.zaxxer.hikari.HikariDataSource" level="ERROR"/>
+    <logger name="com.dom.solver.DragonApplication" level="ERROR"/>
+</configuration>

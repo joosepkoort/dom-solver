@@ -1,0 +1,27 @@
+logging:
+  config: classpath:prod-logback.xml
+  file:
+    path: ./logs/prod
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+    web-application-type: none
+  liquibase:
+    enabled: true
+    change-log: classpath:db.changelog-master.xml
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: "jdbc:hsqldb:mem:dom;DB_CLOSE_DELAY=-1"
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+javax:
+  persistence:
+    jdbc:
+      url: "jdbc:hsqldb:mem:dom;DB_CLOSE_DELAY=-1"
+
+statistics.enabled: true
+statistics.path: "./statistics/prod/"

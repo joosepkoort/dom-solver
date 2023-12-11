@@ -1,0 +1,27 @@
+spring:
+  main:
+    banner-mode: off
+    allow-bean-definition-overriding: true
+  liquibase:
+    enabled: true
+    change-log: classpath:db.changelog-master.xml
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: "jdbc:hsqldb:mem:dom;DB_CLOSE_DELAY=-1"
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  file:
+    path: ./logs/dev
+javax:
+  persistence:
+    jdbc:
+      url: jdbc:hsqldb:mem:dom;DB_CLOSE_DELAY=-1
+server:
+  port: 9998
+
+statistics.enabled: false
+statistics.path: "./statistics/dev/"
