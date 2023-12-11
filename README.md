@@ -2,7 +2,8 @@
 
 A brief description of what this project does and who it's for
 
-## Guide
+## Introduction
+###### This application approaches the Dragons of Mugloar game (https://www.dragonsofmugloar.com/doc/) by first analysing the difficulty level of each quest, giving them a numerical value from -2 to 2 (5 values). Then the quests are done from the order of easiest quests being done first. With the available gold received after quests, potions of health and other items are bought.
 
 ### Prerequisites
 
@@ -38,6 +39,7 @@ A brief description of what this project does and who it's for
 ### Statistics
 ###### in case of prod profile, statistic images will be in ./statistics/prod folder
 ###### in case of default profile, logs will be in ./statistics/dev folder
+
 ##### What is displayed in statistics?: 
 * The amount of gold over time.
 # ![1RK12qJp_gold_chart](https://github.com/joosepkoort/dom-solver/assets/7001273/218ebc5b-ab48-48fa-aeee-1cf45bec61f3)
@@ -46,7 +48,11 @@ A brief description of what this project does and who it's for
 * The difficulty of the quest over time.
 # ![1RK12qJp_difficulty_chart](https://github.com/joosepkoort/dom-solver/assets/7001273/0c65af44-b6e0-4896-80c5-6cecc4f85c6b)
 
-
+## Trends noted:
+###### * So in short, the trend for the gold is increasing, until the most difficult quests appear. Then the trend for gold is decreasing.
+###### * The trend for the score is increasing, until it hits a wall at around 2500-3500.
+###### * The difficulty chart shows a trend of increasing difficulty (going from 2 to -2, where 2 is the easiest and -2 is the most difficult).
+###### * Only 10% or less played games hit a score less than 1000.
 ### Contributing
 
 Contributions are always welcome!
