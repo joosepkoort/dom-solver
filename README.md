@@ -33,12 +33,12 @@ A brief description of what this project does and who it's for
 ###### parameters available: -start {number of games to play}
 
 ### Logs
-###### in case of prod profile, logs will be in ./logs/prod folder
-###### in case of default profile, logs will be in ./logs/dev folder. (by default turned off - can be turned on using properties file)
+###### in case of prod profile, logs will be in ./logs/prod folder.
+###### in case of default profile, logs will be in ./logs/dev folder.
 
 ### Statistics
-###### in case of prod profile, statistic images will be in ./statistics/prod folder
-###### in case of default profile, logs will be in ./statistics/dev folder
+###### in case of prod profile, statistic images will be in ./statistics/prod folder.
+###### in case of default profile, logs will be in ./statistics/dev folder. (by default turned off - can be turned on using properties file).
 
 ##### What is displayed in statistics?: 
 * The amount of gold over time.
