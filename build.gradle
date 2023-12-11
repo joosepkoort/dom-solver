@@ -6,7 +6,7 @@ plugins {
 	id 'org.liquibase.gradle' version '2.2.1'
 }
 
-group = 'com.dom.filters'
+group = 'com.dom.solver'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '17'
 

@@ -20,6 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @TestPropertySource(locations = "classpath:application-prod.yml")
 @AutoConfigureWebClient(registerRestTemplate = true)
 class ProbabilityKeywordsRepositoryTest {
+
     @Autowired
     ProbabilitiesKeywordsRepository keywordsRepository;
 

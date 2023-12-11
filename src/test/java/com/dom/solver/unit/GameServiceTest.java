@@ -15,6 +15,7 @@ import static org.mockito.Mockito.*;
 
 @SpringBootTest
 class GameServiceTest {
+
     @InjectMocks
     GameService gameService;
 

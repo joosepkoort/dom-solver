@@ -35,6 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
 ### statistics folder
 statistics
+
+### logs folder
 logs

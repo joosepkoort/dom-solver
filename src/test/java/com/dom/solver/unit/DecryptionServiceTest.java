@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 class DecryptionServiceTest {
+
     @Resource
     DecryptionService decryptionService;
 
