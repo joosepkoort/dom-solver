@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 ### Prerequisites
 
 - Java 17 or higher
-- Gradle 8.5 or higher
+- Gradle 8.5 or higher - included
 
 ### Installation
 
