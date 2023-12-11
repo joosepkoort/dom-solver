@@ -3,7 +3,7 @@
 A brief description of what this project does and who it's for
 
 ## Introduction
-###### This application approaches the Dragons of Mugloar game (https://www.dragonsofmugloar.com/doc/) by first analysing the difficulty level of each quest, giving them a numerical value from -2 to 2 (5 values). Then the quests are done with the order of easiest quests being done first. With the available gold received after quests, potions of health and other items are bought. If quest messages are encrypted (either with Base64 or ROT13,), they are derypted.
+###### This application approaches the Dragons of Mugloar game (https://www.dragonsofmugloar.com/doc/) by first analysing the difficulty level of each quest, giving them a numerical value from -2 to 2 (5 values). Then the quests are done with the order of easiest quests being done first. With the available gold received after quests, potions of health and other items are bought. If quest messages are encrypted (either with Base64 or ROT13,), they are decrypted first.
 
 ### Prerequisites
 
